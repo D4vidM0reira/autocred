@@ -5,10 +5,10 @@ body {
     /* background-color: #056DB4;     */
 }
 
-.logo-autocred {
+/* .logo-autocred {
     height: 100px;
     width: 100px;
-}
+} */
 
 h2 {
     margin: 10px;
@@ -19,7 +19,7 @@ h2 {
     padding: 10px;
     border-radius: 10px;
     width: 600px;
-    height: 600px;
+    height: 500px;
     margin: 10px auto;
     background-color: #fff;
     display: flex;
@@ -32,7 +32,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .container {
@@ -42,31 +42,24 @@ h2 {
 
 section {
     display: flex;
-    display: flex;
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #aprovado {
     color: #199A01;
-    font-size: 26px;
+    font-size: 36px;
+    width: 100px;
+    height: 100px;
 }
 
-span {
-    font-weight: 600;
-}
 
 p {
     color: #9a9a9a;
     font-size: 12px;
-}
-
-img {
-    height: 50px;
-    width: 50px;
 }
 
 input {
@@ -98,11 +91,16 @@ button:hover {
 }
 
 form {
+    display: flex;
     border: 1px solid #ccc;
     width: 500px;
     margin: 10px auto;
     padding: 10px;
     border-radius: 10px;
+    height: 520px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .esconder {
@@ -111,4 +109,14 @@ form {
 
 .exibir {
     display: flex;
+}
+
+.card span {
+    font-weight: 600;
+    color: #000;
+}
+
+#logo-autocred-no-card, .simbolo-de-verificacao {
+    width: 100px;
+    height: 100px;
 }
