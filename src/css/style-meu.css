@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    /* background: linear-gradient(45deg, #06195B, #056DB4, #fff); */
+    background: linear-gradient(50deg, #00092a, #7ccaff);
+    /* background-color: #056DB4;     */
+}
+
+.logo-autocred {
+    height: 100px;
+    width: 100px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 150px;
+    height: 10px;
+}
+
+section {
+    display: flex;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+#aprovado {
+    color: #199A01;
+    font-size: 26px;
+}
+
+span {
+    font-weight: 600;
+}
+
+p {
+    color: #9a9a9a;
+    font-size: 12px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    border: 1px solid #ccc;
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.esconder {
+    display: none;
+}
+
+.exibir {
+    display: flex;
+}
