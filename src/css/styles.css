@@ -72,12 +72,11 @@ main {
     width: 90%;
 }
 
-.side-item.active {
+.item-selecionado {
     background-color: #4f46e5;
 }
 
-.side-item:hover:not(.active),
-#logout_btn:hover {
+.side-item:hover, #logout_btn:hover {
     background-color: #4f46e5;
 }
 
@@ -168,7 +167,3 @@ main {
 .fa-solid {
     color: #fff;
 }
-
-/* .card div {
-    margin: 10px;
-} */

@@ -56,3 +56,35 @@ document.addEventListener('DOMContentLoaded', function () {
         card.classList.remove('esconder'); // Exibe a div com a classe "card"
     });
 });
+
+function criarCard() {
+    // Esconde o formulário
+    document.getElementById('meuFormulario').classList.add('esconder');
+    
+    // Exibe a div com a classe "card"
+    document.querySelector('.card').classList.remove('esconder');
+
+    // Executa a função para exibir os valores dos inputs
+    exibirValores();
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Obtém todos os itens da lista
+    const sideItems = document.querySelectorAll('.side-item');
+
+    // Adiciona um ouvinte de evento de clique a cada item da lista
+    sideItems.forEach(function (item) {
+        item.addEventListener('click', function (event) {
+            // Previne o comportamento padrão do link
+            event.preventDefault();
+
+            // Remove a classe 'item-selecionado' de todos os itens da lista
+            sideItems.forEach(function (item) {
+                item.classList.remove('item-selecionado');
+            });
+
+            // Adiciona a classe 'item-selecionado' ao item clicado
+            item.classList.add('item-selecionado');
+        });
+    });
+});
